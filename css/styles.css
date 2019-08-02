@@ -1,0 +1,184 @@
+body{
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-bar{
+    height: 80px;
+    width: 100%;
+    background-color: rgba(228, 203, 151, 0.5);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+.logo{
+    height: 75px;
+    width: 75px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.nav-list{
+    float: right;
+}
+
+.list-item{
+    height: 40px;
+    float: left;
+    margin-right: 40px;
+    list-style-type: none;
+}
+
+.list-item a {
+    text-decoration: none;
+    color: rgb(19, 0, 0);
+}
+
+.list-item a:hover{
+    color: #ffff
+}
+
+.hero{
+    background-image: url(../img/eiffel-tower.jpg);
+    height: 400px;
+    background-size: 100%;
+    margin-top: 80px;
+    position: relative;
+}
+
+.hero-content{
+    background-color: rgba(228, 203, 151, 0.5);
+    height: 84px;
+    width: 351px;
+    border: 3px solid #fff;
+    position: absolute;
+    top: 74px;
+    left: 36%;
+    text-align: center;
+}
+
+.home-content{
+    height: 430px;
+    width: 100%;
+    margin-top: 25px;
+    position: relative;
+}
+
+.content-text, .content-img{
+    float: left;
+    height: 400px;
+    width: 49%;
+    border: solid 3px rgb(228, 203, 151);
+    margin: 0 auto;
+    /* padding: 50px;
+    margin-left: 20px; */
+}
+
+
+.content-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.content-text{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(228, 203, 151, 0.5);
+}
+
+.footer-col{
+    width: 33.3%;
+    float: left;
+    text-align: center;
+}
+
+.submit, .social{
+    display: block;
+    margin-top: 16px;
+}
+
+
+.fab{
+    font-size: 2em;
+    margin-left: 16px;
+}
+
+.fa-facebook{
+    color:#3b5998;
+}
+
+.fa-instagram{
+    color: #fb3958;
+}
+
+.fa-twitter-square{
+    color:#1da1f2
+}
+
+/********* END of INDEX STYLES*** */
+
+.about-container{
+    height: 750px;
+    width: 100%;
+    margin-top: 70px;
+}
+
+
+.about-col{
+    height: 700px;
+    width: 30%;
+    border: 1px solid #c9ba99;
+    float: left;
+    margin-left: 24px;
+    margin-top: 30px;
+}
+
+.about-col-img{
+    height: 220px;
+    width: 100%;
+}
+
+.about-audio{
+    display: block; 
+    margin: auto;
+}
+
+.about-col-img, .about-audio, .about-col iframe{
+    margin-top: 25px;
+}
+
+.about-col p {
+    margin: 20px;
+}
+
+/*************** Contact Page *********/
+
+.contact-container{
+    height: 750px;
+    width: 100%;
+    margin-top: 150px;
+}
+
+.contact-col{
+    height: 720px;
+    width: 49%;
+    border: #000 solid 3px;
+    float: left;
+    margin-left: 5px;
+    position: relative;
+}
+
+.map {
+    position: relative;
+    top: 190px;
+    left: 125px;
+
+}
+
